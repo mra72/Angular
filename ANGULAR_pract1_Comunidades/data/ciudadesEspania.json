@@ -1,0 +1,29 @@
+[
+    {
+        "Nombre": "Toledo",
+        "Historia": "Toledo es un municipio y ciudad de España, Nombre de la provincia homónima, de la comunidad autónoma de Castilla-La Mancha y ex-Nombre de España. Además, el municipio es considerado individualmente como una comarca en la división realizada por la Diputación provincial,14 aunque desde un punto de vista estrictamente de geografía física la ciudad es puerta de la comarca natural de La Sagra, que tradicionalmente se ha considerado que comenzaba en la propia puerta de Bisagra.Toledo es conocida como «La ciudad Imperial» por haber sido la sede principal de la corte de Carlos I y también como la ciudad de las tres culturas, por haber estado poblada durante siglos por cristianos, judíos y musulmanes.",
+        "Foto": "./img/toledo.jpg"
+    },
+    {
+        "Nombre": "CiudadReal",
+        "Historia": "Ciudad Real es un municipio y una ciudad española, Nombre de la provincia homónima y de su partido judicial. Está situada en la comunidad autónoma de Castilla-La Mancha.",
+        "Foto": "./img/ciudad-real.jpg"
+    },
+    {
+        "Nombre": "Cuenca",
+        "Historia": "Cuenca es un municipio español perteneciente a la comunidad autónoma de Castilla-La Mancha y una ciudad, Nombre de la provincia homónima. Está situada algo al norte del centro geográfico de la provincia, a una altitud media de 946 msnm y su extenso término municipal, de 911.06 km² es uno de los mayores de España. El municipio contaba con una población empadronada de 56.703 habitantes en 2011 (INE).",
+        "Foto": "./img/albacete.jpg"
+    },
+    {
+        "Nombre": "Albacete",
+        "Historia": "Albacete es una ciudad española, Nombre de la provincia homónima dentro de la Comunidad Autónoma de Castilla-La Mancha. Localizada al sureste de la Meseta Central, concretamente en la histórica comarca manchega de la Mancha de Montearagón, se encuadra actualmente dentro de la comarca de los Llanos de Albacete, de la que es su único municipio. La ciudad es sede del partido judicial número 1 de la provincia, de la diócesis que lleva su nombre, y la del Tribunal Superior de Justicia de Castilla-La Mancha, máximo órgano jurisdiccional en la Comunidad. El término municipal de Albacete es el séptimo más extenso de España con sus 1.125,91 km² (cuarto si se tienen en cuenta sólo las Nombrees de provincia).",
+        "Foto": "./img/cuenca.jpg"
+    },
+    {
+        "Nombre": "Guadalajara",
+        "Historia": "Guadalajara es una ciudad y municipio español, Nombre de la provincia homónima, en la comunidad autónoma de Castilla-La Mancha. Está situada en el centro de la península Ibérica, entre las comarcas de La Alcarria y la Campiña del Henares.2 Con 84.803 habitantes, es la tercera ciudad más poblada de la región, tras Albacete y Talavera de la Reina.",
+        "Foto": "./img/guadalajara.jpg"
+    }
+]
+
+

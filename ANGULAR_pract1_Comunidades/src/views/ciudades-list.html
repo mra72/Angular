@@ -1,0 +1,31 @@
+<h2>Ciudades de España</h2>
+
+
+<p>
+<strong>Buscar</strong>
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+Ciudad: <input ng-model="query.Nombre">
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+
+<strong>Ordenar</strong>
+ <select ng-model="orderField"><!-- declarada en controllers en el archivo  -->
+ 		<option value="Nombre">Nombre</option>
+    </select>
+    <select ng-model="orderReverse">
+ 		<option value="false">Ascendente</option>
+        <option value="true">Descendente</option>
+    </select>
+
+&nbsp;&nbsp;&nbsp;&nbsp;
+  
+<span class="mini">{{var1}}</span>
+</p>
+ 
+<ul>
+    <li ng-repeat="obj in ciudadesEspania | filter:query | orderBy:orderField:orderReverse">
+    	<div ng-include src=" 'src/views/_ciudad-detail.html' ">
+    	</div>
+    </li>
+</ul>

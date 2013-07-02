@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es" ng-app="app">
+<head>
+	<meta charset="utf-8"> 
+    
+    
+	<title>Ciudades de España APP . AngularJS</title>
+	<!-- Responsive web design--Bootstrap -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- -->
+	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
+    <link href="css/estilos.css" rel="stylesheet" media="screen">
+   
+</head>
+
+<body>
+	<!--Aqui se ira insertando el contenido de cada vista segun corresponda -->
+	<div ng-view></div>
+    
+
+    <!-- JS -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
+    <script src="src/lib/jquery/jquery-1.9.1.js"></script>
+    <script src="src/lib/bootstrap/bootstrap.min.js"></script>
+    <script src="src/app.js"></script>
+    <script src="src/controllers/CiudadesListController.js"></script>
+    <script src="src/controllers/CiudadDetailController.js"></script>
+</body>
+</html>
