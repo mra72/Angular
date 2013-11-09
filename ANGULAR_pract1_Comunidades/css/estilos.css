@@ -46,3 +46,13 @@ li a {
 li p {
 	padding-bottom:30px;
 }
+
+
+/*Añadiendo mas estilos propios*/
+.miTablaCiudades tbody tr:hover td, .miTablaCiudades tbody tr:hover th {
+    background-color: #D5DAFA ;
+}
+
+.miTablaCiudades td{
+	text-align: justify;
+}

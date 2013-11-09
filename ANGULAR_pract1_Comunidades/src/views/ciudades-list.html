@@ -1,31 +1,40 @@
 <h2>Ciudades de España</h2>
 
 
-<p>
-<strong>Buscar</strong>
-&nbsp;&nbsp;&nbsp;&nbsp;
+<div class="controls controls-row">
+	<span class="help-inline"><strong>Buscar</strong></span><input type="text" class="span2" id="inputCiudad" placeholder="Ciudad" ng-model="query.Nombre">
 
-Ciudad: <input ng-model="query.Nombre">
-
-&nbsp;&nbsp;&nbsp;&nbsp;
-
-<strong>Ordenar</strong>
- <select ng-model="orderField"><!-- declarada en controllers en el archivo  -->
+   	<span class="help-inline"><strong>Ordenar</strong></span>
+   	<select class="span2" ng-model="orderField"><!-- declarada en controllers en el archivo  -->
  		<option value="Nombre">Nombre</option>
     </select>
-    <select ng-model="orderReverse">
+    <select class="span2" ng-model="orderReverse">
  		<option value="false">Ascendente</option>
         <option value="true">Descendente</option>
     </select>
 
-&nbsp;&nbsp;&nbsp;&nbsp;
-  
+
+	
+</div>
 <span class="mini">{{var1}}</span>
-</p>
- 
-<ul>
+
+<!--ul>
     <li ng-repeat="obj in ciudadesEspania | filter:query | orderBy:orderField:orderReverse">
     	<div ng-include src=" 'src/views/_ciudad-detail.html' ">
     	</div>
     </li>
-</ul>
+</ul-->
+
+
+<table class='table table-hover miTablaCiudades'>
+    <tbody>
+        <!--En ciudadesEspania tendremos el OBJ JSON, mirar CiudadesListController.js, declarada como $scope.ciudadesEspania, el $scope permitirá que sea referenciada desde cualquier punto del codigo-->
+        <tr ng-repeat="obj in ciudadesEspania | filter:query | orderBy:orderField:orderReverse">
+            <!--div ng-include src=" 'src/views/_ciudad-detail.html' "-->
+            <td><a href="#/ciudad/{{obj.Nombre}}"><img ng-src="{{obj.Foto}}" width="95" height="150"></a></td>
+            <td><a href="#/ciudad/{{obj.Nombre}}"><h4>{{obj.Nombre}}</h4></a><br/>{{obj.Historia}}</td>
+        </tr>
+    </tbody>
+</table>
+
+ 

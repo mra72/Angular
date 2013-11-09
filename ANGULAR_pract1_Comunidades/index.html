@@ -7,19 +7,22 @@
 	<title>Ciudades de España APP . AngularJS</title>
 	<!-- Responsive web design--Bootstrap -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<!-- -->
 	
-	<link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-responsive.min.css">
+	
     <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css">
-    <link href="css/estilos.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap-responsive.min.css">
+    <link rel="stylesheet" media="screen" href="css/estilos.css">
    
 </head>
 
 <body>
-	<!--Aqui se ira insertando el contenido de cada vista segun corresponda -->
-	<div ng-view></div>
+	 <div class="container">
+		<!--Aqui se ira insertando el contenido de cada vista segun corresponda -->
+		<div ng-view></div>
     
-
+	</div>
     <!-- JS -->
 
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.4/angular.min.js"></script>
